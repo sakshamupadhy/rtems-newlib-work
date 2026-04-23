@@ -1,0 +1,31 @@
+From d7ea98c5b10cd282525e15f4bac347a986aa9f29 Mon Sep 17 00:00:00 2001
+From: Saksham Upadhyay <“nikkupadhyay75@gmail.com>
+Date: Sun, 5 Apr 2026 00:10:55 -0400
+Subject: [PATCH] Added my_special_func to Newlib
+
+---
+ newlib/libc/stdlib/abs.c | 11 ++++++++---
+ 1 file changed, 8 insertions(+), 3 deletions(-)
+
+diff --git a/newlib/libc/stdlib/abs.c b/newlib/libc/stdlib/abs.c
+index 85a3fecd8..a83253763 100644
+--- a/newlib/libc/stdlib/abs.c
++++ b/newlib/libc/stdlib/abs.c
+@@ -1,6 +1,11 @@
+-/*
+-FUNCTION
+-<<abs>>---integer absolute value (magnitude)
++int my_special_func(int x) {
++    return x * 2;
++
++
++
++
++
++
+ 
+ INDEX
+ 	abs
+-- 
+2.53.0
+
